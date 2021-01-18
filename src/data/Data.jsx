@@ -1,6 +1,6 @@
 const data = [
     {
-        text:"what is HTML?",
+        text:"What is HTML?",
         buttons: [
             {buttont: "A programming language for creating website interactivity", buttonid: false},
             {buttont: "Language that describes the design of the website", buttonid: false},
