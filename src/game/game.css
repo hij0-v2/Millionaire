@@ -9,14 +9,6 @@
     align-items: center;
     border: 2px solid black;
 }
-body{
-    background-image: url("https://i.imgur.com/BR38c4U.png");
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: end;
-}
 .btnbox{
     display: flex;
     flex-wrap: wrap;

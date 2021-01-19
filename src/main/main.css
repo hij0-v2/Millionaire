@@ -5,3 +5,9 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: end;}
+.startBox{
+    display: flex;
+    width: 1000px;
+    height: 6000px;
+    background-color: blue;
+}
