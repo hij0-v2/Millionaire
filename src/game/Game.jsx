@@ -41,7 +41,7 @@ function Game(){
         console.log(buttonid)
       }
       else{
-        alert("Fuck off")
+        alert("Game over")
         console.log(buttonid)
       }
     }
