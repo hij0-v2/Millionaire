@@ -16,7 +16,7 @@ function Main(){
     <div classname="area">
       {start === true &&
       <div classname="startBox">
-        WHAT THE FUCK IS GOING ON
+        <p>WHAT THE FUCK IS GOING ON</p>
         <button onClick={() => startGame()} classname="startButton">Start</button>
       </div>}
       {start === false && <Game/>}

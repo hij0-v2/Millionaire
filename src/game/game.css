@@ -17,10 +17,16 @@
     justify-content: flex-end;
     align-content: flex-end;
 }
+.boxbox {
+    text-align: center;
+    height: 150px;
+    width: 500px;
+    background-color: rgba(137, 137, 252, 0.219);
+}
 button.btn{    
     width: 500px;
     height: 100px;
-    background-color: transparent;
+    background-color: rgba(137, 137, 252, 0.219);
     font-size: large;
     outline: 3px solid black;
     border-color: transparent;
