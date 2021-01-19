@@ -22,9 +22,20 @@ body{
     justify-content: flex-end;
     align-content: flex-end;
 }
-.btn{
+button.btn{    
     width: 500px;
     height: 100px;
+    background-color: transparent;
+    font-size: large;
+    outline: 3px solid black;
+    border-color: transparent;
+    margin-left: -1px;
+    margin-bottom: -1px;
+
+}
+button.btn:hover {
+    background-color: darkred;
+    transition: 0.3s;
 }
 .btnboxbox{
     width: 100%;
