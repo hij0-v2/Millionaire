@@ -52,8 +52,10 @@ function Game(){
         {createShines()}
       </div>
     <div className="box">
+      <div className="boxbox">
       <h1 classname="questionNr">Question {skid+1}</h1>
-      <div className="text">{data[skid].text}</div>
+      <div className="text">{data[skid].text}</div></div>
+      
       <div className="btnbox">
       {data[skid].buttons.map((button) => {
         return <button onClick={() => nextQuestion(button.buttonid)} className="btn">{button.buttont}</button>

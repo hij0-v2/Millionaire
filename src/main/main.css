@@ -11,3 +11,21 @@ body{
     height: 6000px;
     background-color: blue;
 }
+button{
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(163, 163, 255, 0.438);
+    width: 70px;
+    height: 30px;
+}
+p{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    background-color: rgba(163, 163, 255, 0.438);
+}
