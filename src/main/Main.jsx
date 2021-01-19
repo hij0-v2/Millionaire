@@ -24,9 +24,7 @@ function Main(){
       let table = []
       for (let i = 1; i <= score; i++) {
         let children = []
-        //Inner loop to create children
         children.push(<img src="https://i.imgur.com/aw7b039.png"/>)
-        //Create the parent and add the children
         table.push(<tr>{children}</tr>)
       }
       return table

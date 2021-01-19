@@ -1,5 +1,6 @@
 .box{
-    background-color: red;
+    background-image: url("https://i.imgur.com/el7Jmht.jpg");
+    background-size: cover;
     width: 1000px;
     height: 600px;
     display: flex;
@@ -9,6 +10,8 @@
     border: 2px solid black;
 }
 body{
+    background-image: url("https://i.imgur.com/BR38c4U.png");
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,7 +37,7 @@ button.btn{
 
 }
 button.btn:hover {
-    background-color: darkred;
+    background-color: rgb(223, 183, 183);
     transition: 0.3s;
 }
 .btnboxbox{
