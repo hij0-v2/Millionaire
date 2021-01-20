@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import data from '../data/Data'
 import './game.css'
+import Main from '../main/Main'
 
 
 
-function Game(){
+function Game(target){
     let [skid, setSkid] = useState(0);
     let [score, setScore] =useState(0);
     let [lights, setLights] =useState(15);
-
     const createLights = () => {
       let table = []
       for (let i = 0; i < lights; i++) {
@@ -20,6 +20,12 @@ function Game(){
       }
       return table
     }
+
+    const gameOver = () => {
+      target.target()
+    }
+
+
     const createShines = () => {
       let table = []
       for (let i = 1; i <= score; i++) {
@@ -38,13 +44,13 @@ function Game(){
         const nextScore = score + 1;
         setScore(nextScore);
         setSkid(next);
-        console.log(buttonid)
       }
-      else{
-        alert("U succ")
-        console.log(buttonid)
+      else if (buttonid === false){
+        gameOver();
       }
     }
+
+
   return(
     <div className="bigBox">
       <div className="lightsbox">
