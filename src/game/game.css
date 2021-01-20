@@ -1,5 +1,5 @@
 .box{
-    background-image: url("https://i.imgur.com/HHvlbt8.png");
+    background-image: url("https://i.imgur.com/el7Jmht.jpg");
     background-size: cover;
     width: 1000px;
     height: 600px;
@@ -50,4 +50,11 @@ button.btn:hover {
 }
 .bigBox{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

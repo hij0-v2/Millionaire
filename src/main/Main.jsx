@@ -13,9 +13,9 @@ function Main(){
   }
 
   return(
-    <div classname="area">
+    <div id="area">
       {start === true &&
-      <div classname="startBox">
+      <div id="startBox">
         <p>WHAT IS GOING ON</p>
         <button onClick={() => startGame()} classname="startButton">Start</button>
       </div>}

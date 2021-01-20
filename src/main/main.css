@@ -1,13 +1,17 @@
 body{
-    background-image: url("https://i.imgur.com/aCsobjp.png");
+    background-image: url("https://i.imgur.com/ctSrRTe.jpg");
     background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: end;}
-.startBox{
+    align-items: center;}
+#startBox{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 250px;
+    flex-wrap: wrap;
+    margin-top: 150%;
 }
 button{
     display: flex;
@@ -26,4 +30,9 @@ p{
     height: 50px;
     width: 250px;
     background-color: rgba(163, 163, 255, 0.438);
+}
+#area{
+    display: flex;
+    justify-self: center;
+    align-self: center;
 }
