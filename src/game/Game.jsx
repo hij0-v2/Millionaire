@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import data from '../data/Data'
 import './game.css'
 import Main from '../main/Main'
+import dyingAnim from '../resources/images/dyingAnim.gif'
+import dyingSound from '../resources/sound/dyingSound.mp3'
+import src from '*.avif';
+
 
 
 
@@ -23,6 +27,17 @@ function Game(target){
 
     const gameOver = () => {
       target.target()
+      /*pls insert image and audio cus i have no fucking clue how to do that in to the game over screen ty
+      <img src = {dyingAnim}/>
+      <audio id="audio" autoplay loop onloadeddata="setHalfVolume()">
+      <source src= {dyingSound}>
+      </audio> */
+       
+    }
+
+    const setHalfVolume = () => {
+      let myAudio = document.getElementById("audio");  
+      myAudio.volume = 0.2;
     }
 
 
