@@ -7,19 +7,28 @@ import Game from '../game/Game'
 
 function Main(){
   let [start, setStart] = useState(true);
+  let [gameState, setOver] =useState(false);
 
   const startGame = () => {
+    console.log(Game.target)
     setStart(false);
   }
+  const gameOver = () => {
+    console.log(gameState);
+    setOver(true);
+    console.log(gameState);
+  }
+
 
   return(
-    <div classname="area">
+    <div id="area">
       {start === true &&
-      <div classname="startBox">
-        <p>WHAT THE FUCK IS GOING ON</p>
+      <div id="startBox">
+        <p>WHAT IS GOING ON</p>
         <button onClick={() => startGame()} classname="startButton">Start</button>
       </div>}
-      {start === false && <Game/>}
+      {start === false && gameState === false && <Game target={gameOver}/>}
+      {gameState ===true && <p><h1>GAME OVER</h1></p>}
     </div>
   )
 }
