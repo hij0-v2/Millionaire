@@ -4,7 +4,6 @@ import './game.css'
 import Main from '../main/Main'
 import dyingAnim from '../resources/images/dyingAnim.gif'
 import dyingSound from '../resources/sound/dyingSound.mp3'
-import src from '*.avif';
 
 
 
